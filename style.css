@@ -38,26 +38,18 @@ nav ul li a {
 main {
   margin: 5px 300px;
 }
-.imagem-bloco1{
-  position: relative;
-  height: 700px;
-}
 .imagem-bloco1 img{
-  position: absolute;
   width: 1553px;
   max-height: 700px;
 }
-.imagem-bloco1 figure{
-  margin: 0px;
-}
-.imagem-bloco1 figcaption {
-position: relative;
+.imagem-bloco1 p {
 text-align: center;
 padding-top: 290px;
 color: white;
 font-size: 2rem;
 font-weight: 700;
 }
+
 #texto2-bloco1 {
   text-align: center;
   padding-top: 40px;
@@ -70,7 +62,6 @@ font-weight: 700;
 #button-bloco1 {
   display: flex;
   cursor: pointer;
-  position: relative;
   margin-left: 43%;
   margin-top: 100px;
   padding: 10px;
@@ -82,6 +73,22 @@ font-weight: 700;
   background-color: transparent;
   color: white;
 }
+.texto-sobre {
+  text-align: center;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+}
+.texto-sobre h2{
+  font-size: 1.6rem;
+}
+.texto-sobre p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  max-width: 70%;
+  text-align: center;
+  margin-left: 15.5%;
+}
 .bloco2 {
   display: grid;
   grid-template-columns: 400px 400px 400px;
@@ -92,21 +99,28 @@ font-weight: 700;
   background-color: rgb(51, 52, 56);
   width: 400px;
   height: 400px;
+  border-radius: 5px;
+  box-shadow: 9px 6px 10px 0px rgba(0, 0, 0, 0.4);
+}
+.conteudo-bloco2 img{
+  max-width: 400px;
+  height: 400px;
+  border-radius: 5px;
+  position: absolute;
 }
 .conteudo-bloco2 span{
   color: white;
-  position: absolute;
   padding-top: 20px;
   padding-left: 20px;
 }
 .conteudo-bloco2 button{
   display: flex;
   color: rgb(0, 0, 0);
-  position: absolute;
-  margin-top: 350px;
+  position: relative;
+  padding: 10px;
   font-size: 1.2rem;
   margin-left: 125px;
-  background-color: white;
-  border-radius: 5px;
+  margin-top: 350px;
+  border-radius: 20px;
   cursor: pointer;
 }
