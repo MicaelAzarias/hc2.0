@@ -44,6 +44,7 @@ main {
 .imagem-bloco1 img{
   width: 1553px;
   max-height: 700px;
+  max-width: 100%;
 }
 .imagem-bloco1 p {
 text-align: center;
@@ -94,8 +95,8 @@ font-weight: 700;
 }
 .bloco2 {
   display: grid;
-  grid-template-columns: 400px 400px 400px;
-  gap: 176px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px; 
 }
 .conteudo-bloco2 {
   margin-top: 20px;
