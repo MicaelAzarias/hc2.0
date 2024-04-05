@@ -4,18 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hospital das Clinicas - ICR</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/src/css/index.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
   <nav>
-    <img src="image/logo.png" alt="Logo ICR">
+    <img src="src/img/logo.png" alt="Logo ICR">
     <ul>
       <li><a href="index.html">Home</a></li>
-      <li><a href="index.html">Exames</a></li> <!-- TROCAR DPS OS LINKS!! -->
-      <li><a href="index.html">Doações</a></li>
+      <li><a href="#bloco2">Exames</a></li> <!-- TROCAR DPS OS LINKS!! -->
+      <li><a href="doacao.html">Doações</a></li>
     </ul>
     <div class="nav-svg">
       <svg xmlns="http://www.w3.org/2000/svg" id="Outline" viewBox="0 0 24 24" width="20" height="20"><rect y="11" width="24" height="2" rx="1"/><rect y="4" width="24" height="2" rx="1"/><rect y="18" width="24" height="2" rx="1"/></svg>
@@ -24,32 +24,40 @@
   <main>
     <div class="main-bloco1">
       <div class="imagem-bloco1">
-        <img id="img-bloco1" src="image/background_novo2.jpg" alt="Descrição da imagem">
+        <img id="img-bloco1" src="src/img/background_novo2.jpg" alt="Fundo do Hospital">
       </div>
       <div class="texto-sobre">
         <h2>Quem Somos?</h2>
         <p> Conheça um pouco sobre nós, A nossa empresa, Tech do Bem, que surgiu da parceria do ICr com a Fiap, tem como missao, informar de uma maneira fácil, simples e divertida, todas as crianças/adolescentes e seus acompanhantes que visitam o Instituto!</p>
       </div>
     </div>
-    <div class="bloco2">
+    <div class="bloco2" id="bloco2">
       <div class="conteudo-bloco2">
-        <img src="image/exame-de-sangue.jpg">
-        <button>Exame de Sangue</button>
+        <img src="src/img/exame-de-sangue.jpg" alt="Imagem capa exame de sangue">
+        <a href="exame-de-sangue.html"><button>Exame de Sangue</button></a>
       </div>
       <div class="conteudo-bloco2">
-        <span>COLOCAR O TEXTO SOBRE O EXAME AQUI</span>
-        <button>Ir para o Exame</button>
+        <div class="imagem-conteudo-bloco2">
+          <img src="src/img/pexels-tara-winstead-77235131.jpg" alt="imagem capa Raio-X">
+        </div>
+        <div class="button-conteudo-bloco2">
+          <a href="raio_x.html"><button >Raio-X</button></a>
+        </div>
       </div>
       <div class="conteudo-bloco2">
-        <span>COLOCAR O TEXTO SOBRE O EXAME AQUI</span>
-        <button>Ir para o Exame</button>
+        <div class="imagem-conteudo-bloco3">
+          <img src="src/img/ressonancia_magnetica.jpg" alt="imagem capa ressonancia magnetica">
+        </div>
+        <div class="button-conteudo-bloco3">
+          <a href="ressonancia_magnetica.html"><button>Ressonância Magnética</button></a>
+        </div>
       </div>
     </div>
     
   </main>
   <footer>
     <div class="direitos">
-      <p>Todos os direitos reservados a ©Copyright</p>
+      <p>Todos os direitos reservados a Tech do Bem ©Copyright</p>
     </div>
   </footer>
 </body>
