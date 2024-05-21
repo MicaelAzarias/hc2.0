@@ -12,8 +12,20 @@ h2{
     display: flex;
     justify-content: center;
 }
+.title img {
+    margin: 5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* Part 01 - main - primeira imagem e texto */
+.video-exame {
+    width: 560px; 
+    height: 315px; 
+    margin: 20px auto; 
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
 .first_info{
     padding-bottom: 20px;
 }
@@ -23,6 +35,7 @@ h2{
     height: 40rem;
     float: right;
     object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 .first_info p{
     font-size: 1.20rem;
@@ -42,6 +55,7 @@ h2{
     height: 54rem;
     float: left;
     object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .second_info p{
     font-size: 1.20rem;
